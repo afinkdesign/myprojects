@@ -1,0 +1,132 @@
+
+body{ 
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 16px;
+text-align: center;
+line-height: 160%;
+background-color: lightgray;
+}
+
+.skip-link{
+position:absolute;
+top:-40px;
+left:20px;
+background:lightgray;
+color:black;
+padding:10px;
+text-decoration:none;
+z-index:100;
+}
+
+.skip-link:focus{
+top:20px;
+}
+
+header{text-align: center;
+}
+
+.hero{background-image: url("../images/sonnengetraenkter-berg.png");
+height: 400px;
+background-color:green;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.heroroute{background-image: url("../images/e5.map.png");
+height: 400px;
+background-color:green;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+nav ul{
+display:flex;
+width: auto;
+list-style-type: none;
+margin: 25px 25px;
+}
+
+nav a{
+  color:black;
+  background-color: rgb(129, 140, 20);
+  border: .5px solid rgb(98, 107, 18);
+  border-radius: 5px;
+  padding:4px;
+  text-decoration:none;
+}
+
+nav a:hover{
+  border: none;
+}
+
+main div{text-align: center;
+margin: 25px 25px;
+border: .5px solid rgb(98, 107, 18);
+padding: 10px 100px;
+background-color: rgb(129, 140, 20);
+border-radius: 5px;
+}
+
+.route-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    padding:20px;
+    border:1px solid rgb(129, 140, 20);
+    border-radius: 5px;
+}
+
+.card img{
+  border: 5px solid lightgray;
+  padding: .2px;
+  border-radius: 12px;
+}
+
+.gallery-grid{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 40px auto;
+  align-items: start;
+  row-gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border: 5px solid rgb(176, 176, 169);
+  padding: 2px;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+.gallery-grid img:nth-child(odd){
+  border-radius: 12px;
+}
+
+.gallery-grid img:nth-child(even){
+  border-radius:15px;
+}
+
+div img:hover{
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+footer{
+  font-size: 12px;
+}
+
