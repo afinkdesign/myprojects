@@ -87,6 +87,7 @@ border-radius: 5px;
     border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
+    background-color: rgb(129, 140, 20);
 }
 
 .card img{
@@ -133,7 +134,7 @@ footer{
 }
 
 /* Tablet */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
   .route-grid {
     grid-template-columns: repeat(2, 1fr);
   }
