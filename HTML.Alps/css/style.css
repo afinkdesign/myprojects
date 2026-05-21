@@ -149,6 +149,11 @@ footer{
     .gallery-grid {
     grid-template-columns: 1fr;
   }
+
+  .gallery-grid img{
+    height: auto;
+  }
+  
   nav ul {
     display: flex;
     flex-direction: column;
