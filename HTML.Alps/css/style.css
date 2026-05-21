@@ -27,7 +27,7 @@ header{text-align: center;
 
 .hero{background-image: url("../images/sonnengetraenkter-berg.png");
 height: 400px;
-background-color:green;
+background-color:rgb(129, 140, 20);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
