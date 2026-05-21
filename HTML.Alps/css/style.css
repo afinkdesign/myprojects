@@ -77,14 +77,16 @@ border-radius: 5px;
 
 .route-grid{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
 }
 
 .card{
     padding:20px;
     border:1px solid rgb(129, 140, 20);
     border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .card img{
