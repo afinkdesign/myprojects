@@ -108,7 +108,7 @@ border-radius: 5px;
 
 .gallery-grid img {
   width: 100%;
-  height: auto;
+  height: 580px;
   object-fit: cover;
   border: 5px solid rgb(176, 176, 169);
   padding: 2px;
